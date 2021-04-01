@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    background-color: #ECF0F1;
+    height: 100%;
+    min-height: 100%;
+}
+
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 4px solid orangered;
+}
+
+.caixa {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.caixa nav {
+    float: right;
+}
+
+.cor_projeto_cadastro {
+    color: orangered;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    display: inline; 
+    padding-left: 20px;
+    font-size: x-small;
+}
+
+.pag_cadastro {
+    width: 100%;
+}
+
+.caixa_cadastro {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.informações {
+    padding: 50px 0;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    width: 45%;
+    height: 35px;
+    padding-left: 20px;
+}
+
+img {
+    float: right;
+    height: 575px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #FF5F25;
+    width: 100%;
+    background-size: cover;
+    height: 70px;
+    margin-top: 252px;
+    padding-top: 50px;
+}

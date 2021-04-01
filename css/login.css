@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 4px solid orangered;
+}
+
+.caixa {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.caixa nav {
+    float: right;
+}
+
+.cor_projeto_login {
+    color: orangered;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    display: inline; 
+    padding-left: 20px;
+    font-size: x-small;
+}
+
+.caixa span {
+    float: left;
+}
+
+.pag_login {
+    padding: 50px 0;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.caixa_login {
+    background-color: white;
+    width: 400px;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    padding: 60px 20px 60px 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+input {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #FF5F25;
+    width: 100%;
+    background-size: cover;
+    height: 333px;
+    padding-top: 50px;
+}
