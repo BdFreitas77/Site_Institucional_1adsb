@@ -87,3 +87,8 @@ button {
     height: 333px;
     padding-top: 50px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
